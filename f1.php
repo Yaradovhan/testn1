@@ -1,15 +1,5 @@
 <?php
-// Радиус земли
-define('EARTH_RADIUS', 6372795);
- 
-/*
- * Расстояние между двумя точками
- * $φA, $λA - широта, долгота 1-й точки,
- * $φB, $λB - широта, долгота 2-й точки
- * Написано по мотивам http://gis-lab.info/qa/great-circles.html
- * Михаил Кобзарев <mikhail@kobzarev.com>
- *
- */
+
 function calculateTheDistance ($φA, $λA, $φB, $λB) {
  
     // перевести координаты в радианы
